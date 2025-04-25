@@ -1,0 +1,348 @@
+/* Global Style */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+:root {
+    --main-color: rgb(209, 6, 6);
+    --bg-color: #121621;
+    --transition-change-color-duration: 0.4s;
+    --space-between-sections: 180px;
+}
+
+body {
+    background-color: var(--bg-color);
+    /* height: 10000px; */
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border-color: var(--main-color);
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 45px;
+    background-color: var(--main-color);
+    transition: all 0.3s;
+    z-index: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar Style */
+
+nav {
+    background-color: var(--bg-color);
+    padding-block: 15px !important;
+}
+
+.navbar-brand {
+    transition: all var(--transition-change-color-duration);
+}
+
+.navbar-brand:hover {
+    color: var(--main-color) !important;
+}
+
+.nav-item {
+    margin-inline: 12px;
+}
+
+.active {
+    color: var(--main-color) !important;
+}
+
+.nav-item a {
+    transition: all var(--transition-change-color-duration);
+
+}
+
+.nav-item a:hover {
+    color: var(--main-color) !important;
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler i {
+    transition: all var(--transition-change-color-duration);
+}
+
+.navbar-toggler i:hover {
+    color: var(--main-color) !important;
+}
+
+nav .fw-semibold {
+    border-color: var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+
+nav .fw-semibold:hover {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+/* home style */
+
+header {
+    padding-top: var(--space-between-sections);
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin: 20px 0px 40px;
+    padding: 0px 0px 5px;
+    position: relative;
+}
+
+header h1 span {
+    color: var(--main-color);
+}
+
+header .right-image {
+    border-radius: 25px;
+}
+
+/* about style */
+
+#about {
+    padding-top: 150px;
+}
+
+#about .left-image {
+    border-radius: 25px;
+}
+
+#about .right-content h2 {
+    margin: 20px 0px 40px;
+    padding: 0px 0px 5px;
+}
+
+#about .right-content p {
+    line-height: 29px;
+}
+
+#about .right-content a {
+    background-color: var(--main-color);
+}
+
+#about p a {
+    transition: all var(--transition-change-color-duration);
+}
+
+#about p a:hover {
+    color: var(--main-color) !important;
+}
+
+/* movies style */
+
+#movies {
+    padding-top: var(--space-between-sections);
+}
+
+#movies .left-content p {
+    color: #949cb0;
+}
+
+#movies .left-content .my-border {
+    background-color: #a8a8a83d !important;
+    height: 1px;
+}
+
+#movies .content .rate {
+    background-color: var(--main-color);
+    position: absolute;
+    right: -10px;
+    top: 0;
+    padding: 10px;
+}
+
+#movies .more-movies .over-lay {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#all-movies {
+    padding-top: var(--space-between-sections);
+}
+
+#all-movies p a {
+    transition: all var(--transition-change-color-duration);
+}
+
+#all-movies p a:hover {
+    color: var(--main-color) !important;
+}
+
+#all-movies .content .rate {
+    background-color: var(--main-color);
+    position: absolute;
+    right: -10px;
+    top: 0;
+    padding: 10px;
+}
+
+/* tv shows style */
+
+#tv-shows {
+    padding-top: var(--space-between-sections);
+}
+
+#tv-shows .left-content p {
+    color: #949cb0;
+}
+
+#tv-shows .left-content .my-border {
+    background-color: #a8a8a83d !important;
+    height: 1px;
+}
+
+#tv-shows .content .rate {
+    background-color: var(--main-color);
+    position: absolute;
+    right: -10px;
+    top: 0;
+    padding: 10px;
+}
+
+#tv-shows .more-tv-shows .over-lay {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#all-tvShows {
+    padding-top: var(--space-between-sections);
+}
+
+#all-tvShows p a {
+    transition: all var(--transition-change-color-duration);
+}
+
+#all-tvShows p a:hover {
+    color: var(--main-color) !important;
+}
+
+#all-tvShows .content .rate {
+    background-color: var(--main-color);
+    position: absolute;
+    right: -10px;
+    top: 0;
+    padding: 10px;
+}
+
+/* testimonials style */
+
+#testimonials {
+    padding-top: var(--space-between-sections);
+}
+
+#testimonials #carouselExampleIndicators .carousel-inner .carousel-item .content {
+    background-color: #1d233d;
+    width: 60% !important;
+
+}
+
+#testimonials #carouselExampleIndicators .carousel-inner .carousel-item p {
+    line-height: 28px;
+    color: var(--main-color);
+}
+
+#testimonials #carouselExampleIndicators .carousel-inner .carousel-item .fa-quote-left {
+    font-size: 50px;
+}
+
+/* contact style */
+
+#contact {
+    padding-top: var(--space-between-sections);
+}
+
+#contact .w-50 {
+    width: 49% !important;
+}
+
+#contact textarea {
+    height: 130px;
+}
+
+#contact .button button {
+    background-color: var(--main-color);
+}
+
+/* footer style */
+
+footer {
+    margin-top: 120px;
+    background-color: #1d233d;
+}
+
+footer .col-md-4 p {
+    line-height: 29px;
+}
+
+footer ul li a {
+    color: #949cb0 !important;
+}
+
+footer ul li a:hover {
+    margin-left: 20px;
+}
+
+footer .col-lg-5 ul {
+    width: 53%;
+}
+
+footer .col-lg-3 ul {
+    width: 100%;
+}
+
+footer .col-lg-3 div a {
+    background-color: transparent;
+    border: 1px solid color-mix(in srgb, white, transparent 30%);
+    margin: 0 7px;
+    transition: all var(--transition-change-color-duration);
+    width: 40px;
+    font-size: 16px;
+    height: 40px;
+}
+
+footer .col-lg-3 div a:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: white;
+}
+
+footer .copy-right p {
+    text-align: center;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer .copy-right p a {
+    transition: all var(--transition-change-color-duration);
+    font-weight: 900;
+}
+
+footer .copy-right p a:hover {
+    color: var(--main-color) !important;
+}

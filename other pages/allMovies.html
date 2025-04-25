@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/media_query.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Movies</title>
+    <link rel="shortcut icon" href="../images/nficon2023.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg shadow position-fixed fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white text-uppercase fw-bolder fs-3" href="../index.html">Novex</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" id="moviesSearchInput" type="text" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn fw-semibold" id="MoviesSearchBtn" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <button type="button" class="btn text-white btn-floating btn-lg rounded-circle opacity-0" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    <section id="all-movies">
+        <div class="container">
+            <div class="title">
+                <h1 class="text-white text-uppercase fw-bolder text-center">Movies</h1>
+
+                <p class="text-white fw-bold text-center mt-5"><a href="../index.html" class="text-white">Home</a>
+                    <i class="fa-solid fa-right-long mx-2"></i> Movies
+                </p>
+            </div>
+            <h2 id="noMovies" class="text-white text-center mt-5"></h2>
+            <div class="row gy-5 mt-5" id="allMoviesContainer">
+            </div>
+        </div>
+    </section>
+    <footer class="p-4">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4">
+                    <h3 class="text-white mb-4">Novex</h3>
+                    <p class="text-white">Novex is a subscription-based streaming service that offers a wide variety of
+                        TV shows, movies,
+                        documentaries, and original content.Novex has significantly impacted how audiences consume
+                        entertainment, contributing to the rise of</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <h3 class="text-white text-center mb-4">Social Media</h3>
+                    <div class="d-flex">
+                        <a href="" class="rounded-circle d-flex justify-content-center align-items-center"><i
+                                class="fa-brands fa-x-twitter text-white"></i></a>
+                        <a href="" class="rounded-circle d-flex justify-content-center align-items-center"><i
+                                class="fa-brands fa-facebook text-white"></i></a>
+                        <a href="" class="rounded-circle d-flex justify-content-center align-items-center"><i
+                                class="fa-brands fa-instagram text-white"></i></a>
+                        <a href="" class="rounded-circle d-flex justify-content-center align-items-center"><i
+                                class="fa-brands fa-youtube text-white"></i></a>
+                        <a href="" class="rounded-circle d-flex justify-content-center align-items-center"><i
+                                class="fa-brands fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right mt-5">
+                <p>Copyright © 2048 Novex Streaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow"
+                        href="mailto:zizomahdy688@gmail.com" target="_blank" class="text-white">Design: Hamza
+                        Mahmoud</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

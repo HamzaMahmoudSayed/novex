@@ -1,0 +1,149 @@
+/* navbar media query */
+
+@media (max-width: 992px) {
+    .nav-item {
+        margin-block: 5px
+    }
+
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+    nav form {
+        margin-top: 20px;
+    }
+}
+
+/* home media query */
+
+@media (max-width: 992px) {
+    header h1 {
+        text-align: center;
+        font-size: 38px;
+
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    header .right-image {
+        margin-top: 60px;
+    }
+}
+
+/* about media query */
+
+@media (max-width:992px) {
+
+    #about .right-content {
+        margin-top: 60px;
+    }
+
+    #about .right-content h2 {
+        text-align: center;
+    }
+
+    #about .right-content p {
+        text-align: center;
+    }
+
+    #about .right-content .button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* movies media query */
+
+@media (max-width:992px) {
+    #movies .left-content h2 {
+        text-align: center;
+    }
+
+    #movies .left-content p {
+        text-align: center;
+    }
+
+    #movies .left-content .my-border {
+        margin: auto;
+    }
+}
+
+/* media query tv-shows */
+@media (max-width:992px) {
+    #tv-shows .left-content h2 {
+        text-align: center;
+    }
+
+    #tv-shows .left-content p {
+        text-align: center;
+    }
+
+    #tv-shows .left-content .my-border {
+        margin: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* media query testimonial */
+
+@media (max-width:767px) {
+    #testimonials #carouselExampleIndicators .carousel-inner .carousel-item .fa-quote-left {
+
+        font-size: 35px !important;
+    }
+}
+
+/* media query contact */
+
+@media (max-width:767px) {
+    #contact .col-md-7 {
+        margin-top: 60px;
+    }
+}
+
+/* footer media query */
+
+@media (max-width:767px) {
+    footer .col-lg-4 {
+        margin-bottom: 50px;
+    }
+
+    footer .col-lg-4 h3 {
+        text-align: center;
+    }
+
+    footer .col-lg-4 p {
+        text-align: center;
+    }
+
+    footer .col-lg-5 ul {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    footer .copy-right p {
+        line-height: 29px;
+    }
+}
+
+@media (max-width:1113px) {
+    footer .col-lg-4 {
+        margin-bottom: 50px;
+    }
+
+    footer .col-lg-5 ul {
+        margin-bottom: 50px;
+    }
+
+    footer .col-lg-3 div {
+        justify-content: center;
+    }
+}
