@@ -189,7 +189,7 @@ function searchTvShows(tvShows) {
             let cartona = ""
             for (var i = 0; i < tvShows.length; i++) {
                 if (tvShows[i].name.toLowerCase().includes(tvShowsSearchInput.value.toLowerCase())) {
-                    cartona += `        < div class="col-md-4 col-lg-2" >
+                    cartona += `        <div class="col-md-4 col-lg-2">
         <div class="content position-relative">
             <img src="${imageUrl + tvShows[i].poster_path}" class="w-100" alt="">
                 <span class="rate text-white fw-bold rounded">${tvShows[i].popularity.toString().slice(0, 5)}</span>
